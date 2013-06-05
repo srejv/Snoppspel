@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="shitty_colors" tilewidth="32" tileheight="32">
+  <image source="../gfx/tilesets/shittycolors.png" width="255" height="255"/>
+  <tile id="0">
+   <properties>
+    <property name="isSolid" value=""/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="isSolid" value=""/>
+    <property name="upperCorner" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="40" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYBoCmAMJ80MxLwXm8aOxkTGl7qOF/3G5jVh343IbLxH6iTGfEreR4nd+HGL40gQ2MXTzBhOmJF1TK60NdBiM4lE8igcXZhgEbhjFIwszDAI34MMA6iMHlw==
+  </data>
+ </layer>
+ <layer name="ground" width="40" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztjzEKACAIAHMO///dEHKR0KLF4Q4OolCuMQAAAKAbuu2Idcm2Y6MEI9Y8C3/+Vc1mfXp4z3zt9P1+1nCPdy6IEgFj
+  </data>
+ </layer>
+ <layer name="details" width="40" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAACvAQtAAAE=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="40" height="18">
+  <object name="Player Spawn" type="spawnpoint" gid="8" x="36" y="461"/>
+  <object name="Level Finish" type="endlevel" x="1052" y="447" width="107" height="59"/>
+ </objectgroup>
+</map>

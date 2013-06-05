@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32" backgroundcolor="#d3d3d3">
+ <properties>
+  <property name="timeToFinish" value="300"/>
+ </properties>
+ <tileset firstgid="1" source="../examples/desert.tsx"/>
+ <layer name="Ground" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmOtSwkAMRoOggqCoqHhtq6igKPL+T2d22kwzmex2tzfKDD/OAMPiHr5N00gEAFGDXCBT5LLhfcqwUfziDnjtS34mqztkjtx3wEejhxwhfeHdxF4PyGMAT8gIOUPGLWTxirwFsGjQb+Xwe0e+kY8d+rnyW3jmqflp9ViFz5r96shzK7yk3w+k9f9bwu8KuUZmJbxkzcnXRXnJuqyj/rTrYCXyo+dFfjJX7vcMac31ILz2luI1+YTm5zpfynBUIUvpKfnKzs+XteJn6i+k9k4zhpBf+y76nuuIF+EXmtkU8vmCf1fiBtLrjZhZ1vkwhvD+N4d8vqBrX/qcsIwjyzrOrcOv7PUsa4+cDOdZxhPmyNcMxWdt/jPw738J6HMOedJcKZlYvDXPqiRKbpSL2XsA+fkfK64D8Z5rRi4zm2lePBe+H+XJnWkmds3IG/Dvnfz+s1D+lnTg+9kcYsujxMfPOG2ztZqfdJB9ztYTYob2/l9NfhLZ53hPWIrHon7Qtl8oPn58vvDxM72Keq25j8ieVXS/prP19ZNZ+nxv3k83np/RekrRLGs767LnVdeZVs2vLT/qfXw265JfG3mF+NnySjrit4u8JK7/B9ZKVl37bdBGm2d84MA+8w9jg7Bx
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="40" height="40">
+  <object name="asdf" x="637" y="228" width="130" height="61">
+   <properties>
+    <property name="enemy" value="zombiesnopp"/>
+   </properties>
+  </object>
+  <object name="herp" type="enemy" x="595" y="346" width="221" height="279"/>
+  <object gid="14" x="763" y="403"/>
+  <object gid="20" x="882" y="441" visible="0"/>
+  <object name="SignToPlace" type="sign" gid="46" x="870" y="279">
+   <properties>
+    <property name="text" value="Gå inte hit, snälla!"/>
+   </properties>
+  </object>
+  <object gid="46" x="880" y="628"/>
+ </objectgroup>
+</map>

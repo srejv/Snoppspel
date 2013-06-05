@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="shittycolors" tilewidth="32" tileheight="32">
+  <image source="../gfx/tilesets/shittycolors.png" width="255" height="255"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztzjEKADAMw0C35P9vzp7VUFyiA+2SAGxRozT8efjzpP8dZf/dURr+PL/8ld78NaJuAJg=
+  </data>
+ </layer>
+ <layer name="walkables" width="40" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztziESACAMA8Hk/5/G1mChYnfm/CUAAGzQ3wMXHW3UvH08EbQACQ==
+  </data>
+ </layer>
+</map>
